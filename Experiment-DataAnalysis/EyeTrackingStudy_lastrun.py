@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2021.2.1),
-    on April 26, 2022, at 15:07
+    on May 11, 2022, at 17:28
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -58,7 +58,7 @@ filename = _thisDir + os.sep + u'data/%s_%s_%s' % (expInfo['participant'], expNa
 # An ExperimentHandler isn't essential but helps with data saving
 thisExp = data.ExperimentHandler(name=expName, version='',
     extraInfo=expInfo, runtimeInfo=None,
-    originPath='C:\\Users\\SE-Chair\\Desktop\\CurlyBrackets-main\\DataAnalysis\\EyeTrackingStudy_lastrun.py',
+    originPath='C:\\Users\\SE-Chair\\Documents\\GitHub\\CurlyBrackets\\Experiment-DataAnalysis\\EyeTrackingStudy_lastrun.py',
     savePickle=True, saveWideText=True,
     dataFileName=filename)
 # save a log file for detail verbose info
