@@ -95,7 +95,7 @@
         <Param name="stopType" updates="None" val="condition" valType="str"/>
         <Param name="stopVal" updates="constant" val="" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
-        <Param name="text" updates="constant" val="Welcome to an Eye tracking study to Investigate the Effect of Curly brackets in Program Comprehension. &amp;#10;&amp;#10;&amp;#10;Please press &lt;spacebar to continue&gt;" valType="str"/>
+        <Param name="text" updates="constant" val="Welcome to an eye tracking study to investigate the effect of curly brackets in program comprehension. &amp;#10;&amp;#10;&amp;#10;Please press &lt;spacebar&gt; to continue" valType="str"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
         <Param name="wrapWidth" updates="constant" val="" valType="num"/>
       </TextComponent>
@@ -140,7 +140,7 @@
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
         <Param name="stopVal" updates="constant" val="" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
-        <Param name="text" updates="constant" val="Thank you for participation in this survey.&amp;#10;&amp;#10;First of all,study will take about 30 minutes to complete. &amp;#10;&amp;#10;Over the following study you will be shown various snippets of source code in Java. This aims at testing your comprehension of the given algorithms. You will be asked to compute output after each snippets and click the correct output in given options.&amp;#10;&amp;#10;&amp;#10;Please Press &lt;spacebar&gt; to continue." valType="str"/>
+        <Param name="text" updates="constant" val="Thank you for participating in this study. It will take about 30 minutes to complete.&amp;#10;&amp;#10;You will see various source-code snippets in Java in two steps. &amp;#10;&amp;#10;First, you see the computational part of the snippet. Your task is to comprehend this part as correct and as fast as possible.&amp;#10;&amp;#10;Second, you see the main method with a call to the computational part. You are then asked to determine the output of the snippet by selecting the correct output from several options.&amp;#10;&amp;#10;We start with a tutorial task so you can get familiar with the study.&amp;#10;&amp;#10;&amp;#10;&amp;#10;Please press &lt;spacebar&gt; to continue." valType="str"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
         <Param name="wrapWidth" updates="constant" val="" valType="num"/>
       </TextComponent>
@@ -857,7 +857,7 @@
         <Param name="Begin Experiment" updates="constant" val="" valType="extendedCode"/>
         <Param name="Begin JS Experiment" updates="constant" val="" valType="extendedCode"/>
         <Param name="Begin JS Routine" updates="constant" val="random.choice(number_list);&amp;#10;" valType="extendedCode"/>
-        <Param name="Begin Routine" updates="constant" val="Current_index2 = index2.pop(0)&amp;#10;Current_index2 = index2.pop(0)&amp;#10;Current_index2 = index2.pop(0)&amp;#10;&amp;#10;&amp;#10;# if 1 active - Combination 1&amp;#10;&amp;#10;# if 2 active - Combination 2&amp;#10;&amp;#10;# if all active - Combination 3&amp;#10;" valType="extendedCode"/>
+        <Param name="Begin Routine" updates="constant" val="Current_index2 = index2.pop(0)&amp;#10;#Current_index2 = index2.pop(0)&amp;#10;#Current_index2 = index2.pop(0)&amp;#10;&amp;#10;&amp;#10;# if 1 active - Combination 1&amp;#10;&amp;#10;# if 2 active - Combination 2&amp;#10;&amp;#10;# if all active - Combination 3&amp;#10;" valType="extendedCode"/>
         <Param name="Code Type" updates="None" val="Py" valType="str"/>
         <Param name="Each Frame" updates="constant" val="" valType="extendedCode"/>
         <Param name="Each JS Frame" updates="constant" val="" valType="extendedCode"/>
@@ -910,7 +910,7 @@
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
         <Param name="stopVal" updates="constant" val="" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
-        <Param name="text" updates="constant" val="Now everything looks perfect. Lets begin the study.&amp;#10;&amp;#10;Please press &lt;spacebar&gt; to continue.." valType="str"/>
+        <Param name="text" updates="constant" val="Now everything looks perfect. Lets begin the study.&amp;#10;&amp;#10;Please press &lt;spacebar&gt; to continue" valType="str"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
         <Param name="wrapWidth" updates="constant" val="" valType="num"/>
       </TextComponent>
@@ -1145,7 +1145,6 @@
     <Routine name="Code_intial"/>
     <Routine name="Welcome_Screen"/>
     <Routine name="Instructions"/>
-    <Routine name="Start_Task"/>
     <Routine name="demo1"/>
     <Routine name="demo2"/>
     <Routine name="Demo_Output"/>
