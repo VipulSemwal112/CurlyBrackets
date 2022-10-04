@@ -1,0 +1,276 @@
+3.8331 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+18.8566 	WARNING 	Couldn't measure a consistent frame rate.
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+18.8568 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([-1, -1, -1]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000002412313E9B0>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0000024122F96BE0>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+18.8571 	EXP 	window1: mouseVisible = True
+18.8571 	EXP 	window1: recordFrameIntervals = False
+19.0171 	EXP 	window1: recordFrameIntervals = True
+19.0731 	WARNING 	t of last frame was 22.95ms (=1/43)
+19.1064 	WARNING 	t of last frame was 22.91ms (=1/43)
+19.1397 	WARNING 	t of last frame was 22.93ms (=1/43)
+19.1731 	WARNING 	t of last frame was 22.96ms (=1/43)
+19.2065 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+20.6837 	WARNING 	Couldn't measure a consistent frame rate.
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+21.6464 	EXP 	Created Introduction = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.035, italic=False, languageStyle='LTR', name='Introduction', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+21.6741 	EXP 	Created instructions = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.035, italic=False, languageStyle='LTR', name='instructions', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+21.9198 	EXP 	Created image_3 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='snippets/Final/Demo.png', interpolate=True, mask=None, maskParams=None, name='image_3', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1920., 1080.]), texRes=128.0, units='pix', win=Window(...))
+22.1613 	EXP 	Created image_4 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='snippets/Final/Demoresp.png', interpolate=True, mask=None, maskParams=None, name='image_4', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1920., 1080.]), texRes=128.0, units='pix', win=Window(...))
+22.1996 	EXP 	window1: mouseVisible = True
+22.2045 	EXP 	window1: mouseVisible = True
+22.2046 	EXP 	window1: mouseVisible = True
+22.2146 	EXP 	Created text_5 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_5', opacity=1, ori=0.0, pos=array([-0.07,  0.33]), rgb=UNKNOWN, text='Choose your output', units='height', win=Window(...), wrapWidth=1)
+22.2211 	EXP 	Created text_4 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.035, italic=False, languageStyle='LTR', name='text_4', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+22.2248 	EXP 	Created image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='sin', interpolate=False, mask=None, maskParams=None, name='image', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=128.0, units='pix', win=Window(...))
+22.2397 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_2', opacity=1, ori=0.0, pos=array([ 0., -1.]), rgb=UNKNOWN, text='Press < spacebar > to continue ', units='height', win=Window(...), wrapWidth=1)
+22.2397 	EXP 	window1: mouseVisible = True
+22.2419 	EXP 	window1: mouseVisible = True
+22.2439 	EXP 	window1: mouseVisible = True
+22.2488 	EXP 	Created text_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_3', opacity=1, ori=0.0, pos=array([-0.07,  0.33]), rgb=UNKNOWN, text='Choose your Output', units='height', win=Window(...), wrapWidth=1)
+22.2619 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+22.3204 	EXP 	Introduction: autoDraw = True
+33.1622 	DATA 	Keypress: space
+33.1659 	EXP 	Introduction: autoDraw = False
+33.1659 	EXP 	instructions: autoDraw = True
+51.2120 	DATA 	Keypress: space
+51.2406 	EXP 	instructions: autoDraw = False
+51.2406 	EXP 	image_3: autoDraw = True
+62.3390 	DATA 	Keypress: space
+62.3470 	EXP 	image_3: autoDraw = False
+62.3470 	EXP 	image_4: autoDraw = True
+76.3448 	DATA 	Keypress: space
+76.3722 	EXP 	image_4: autoDraw = False
+76.3722 	EXP 	text_5: autoDraw = True
+82.2606 	DATA 	Mouse: Left button down, pos=(904,651)
+82.3044 	EXP 	text_5: autoDraw = False
+82.3044 	EXP 	text_4: autoDraw = True
+82.4421 	DATA 	Mouse:  Left button up, pos=(904,651)
+85.9492 	EXP 	Created sequence: sequential, trialTypes=1, nReps=16, seed=None
+85.9497 	EXP 	New trial (rep=0, index=0): None
+85.9504 	EXP 	Created sequence: random, trialTypes=1, nReps=2, seed=None
+85.9507 	EXP 	New trial (rep=0, index=0): None
+86.0299 	DATA 	Keypress: space
+86.0302 	DATA 	Keypress: space
+86.0387 	EXP 	text_4: autoDraw = False
+86.0387 	EXP 	image: size = array([1920., 1080.])
+86.0387 	EXP 	image: image = './snippets/Final/ArraySum(WOC).png'
+86.0387 	EXP 	image: autoDraw = True
+86.0387 	EXP 	text_2: autoDraw = True
+134.5949 	EXP 	New trial (rep=1, index=0): None
+134.6492 	DATA 	Keypress: space
+134.6579 	EXP 	image: autoDraw = False
+134.6579 	EXP 	text_2: autoDraw = False
+134.6579 	EXP 	image: size = array([1920., 1080.])
+134.6579 	EXP 	image: image = './snippets/Final/ArraySumresp(WOC).png'
+134.6579 	EXP 	image: autoDraw = True
+134.6579 	EXP 	text_2: autoDraw = True
+162.0907 	DATA 	Keypress: space
+162.1618 	EXP 	image: autoDraw = False
+162.1618 	EXP 	text_2: autoDraw = False
+162.1618 	EXP 	text_3: autoDraw = True
+164.5167 	DATA 	Mouse: Left button down, pos=(599,637)
+164.5430 	EXP 	New trial (rep=1, index=0): None
+164.5433 	EXP 	Created sequence: random, trialTypes=1, nReps=2, seed=None
+164.5434 	EXP 	New trial (rep=0, index=0): None
+164.6020 	EXP 	text_3: autoDraw = False
+164.6020 	EXP 	image: size = array([1920., 1080.])
+164.6020 	EXP 	image: image = './snippets/Final/BubbleSort(CNL).png'
+164.6020 	EXP 	image: autoDraw = True
+164.6020 	EXP 	text_2: autoDraw = True
+164.7078 	DATA 	Mouse:  Left button up, pos=(599,637)
+216.4745 	DATA 	Keypress: space
+216.5093 	EXP 	New trial (rep=1, index=0): None
+216.5765 	EXP 	image: autoDraw = False
+216.5765 	EXP 	text_2: autoDraw = False
+216.5765 	EXP 	image: size = array([1920., 1080.])
+216.5765 	EXP 	image: image = './snippets/Final/BubbleSortresp(CNL).png'
+216.5765 	EXP 	image: autoDraw = True
+216.5765 	EXP 	text_2: autoDraw = True
+361.3626 	DATA 	Keypress: space
+361.3732 	EXP 	image: autoDraw = False
+361.3732 	EXP 	text_2: autoDraw = False
+361.3732 	EXP 	text_3: autoDraw = True
+374.7944 	DATA 	Mouse: Left button down, pos=(692,416)
+374.8003 	EXP 	New trial (rep=2, index=0): None
+374.8006 	EXP 	Created sequence: random, trialTypes=1, nReps=2, seed=None
+374.8007 	EXP 	New trial (rep=0, index=0): None
+374.8567 	EXP 	text_3: autoDraw = False
+374.8567 	EXP 	image: size = array([1920., 1080.])
+374.8567 	EXP 	image: image = './snippets/Final/NumberCheck(WIC).png'
+374.8567 	EXP 	image: autoDraw = True
+374.8567 	EXP 	text_2: autoDraw = True
+374.9853 	DATA 	Mouse:  Left button up, pos=(692,416)
+387.9712 	EXP 	New trial (rep=1, index=0): None
+388.0271 	DATA 	Keypress: space
+388.0353 	EXP 	image: autoDraw = False
+388.0353 	EXP 	text_2: autoDraw = False
+388.0353 	EXP 	image: size = array([1920., 1080.])
+388.0353 	EXP 	image: image = './snippets/Final/NumberCheckresp(WIC).png'
+388.0353 	EXP 	image: autoDraw = True
+388.0353 	EXP 	text_2: autoDraw = True
+429.6862 	DATA 	Keypress: space
+429.6963 	EXP 	image: autoDraw = False
+429.6963 	EXP 	text_2: autoDraw = False
+429.6963 	EXP 	text_3: autoDraw = True
+432.3844 	DATA 	Mouse: Left button down, pos=(788,414)
+432.3905 	EXP 	New trial (rep=3, index=0): None
+432.3907 	EXP 	Created sequence: random, trialTypes=1, nReps=2, seed=None
+432.3909 	EXP 	New trial (rep=0, index=0): None
+432.4508 	EXP 	text_3: autoDraw = False
+432.4508 	EXP 	image: size = array([1920., 1080.])
+432.4508 	EXP 	image: image = './snippets/Final/ContainsSubstring(WOC).png'
+432.4508 	EXP 	image: autoDraw = True
+432.4508 	EXP 	text_2: autoDraw = True
+432.5829 	DATA 	Mouse:  Left button up, pos=(788,414)
+460.9251 	EXP 	New trial (rep=1, index=0): None
+460.9837 	DATA 	Keypress: space
+460.9936 	EXP 	image: autoDraw = False
+460.9936 	EXP 	text_2: autoDraw = False
+460.9936 	EXP 	image: size = array([1920., 1080.])
+460.9936 	EXP 	image: image = './snippets/Final/ContainsSubstringresp(WOC).png'
+460.9936 	EXP 	image: autoDraw = True
+460.9936 	EXP 	text_2: autoDraw = True
+524.6006 	DATA 	Keypress: space
+524.6101 	EXP 	image: autoDraw = False
+524.6101 	EXP 	text_2: autoDraw = False
+524.6101 	EXP 	text_3: autoDraw = True
+536.6593 	DATA 	Mouse: Left button down, pos=(610,431)
+536.6687 	EXP 	New trial (rep=4, index=0): None
+536.6689 	EXP 	Created sequence: random, trialTypes=1, nReps=2, seed=None
+536.6691 	EXP 	New trial (rep=0, index=0): None
+536.7203 	EXP 	text_3: autoDraw = False
+536.7203 	EXP 	image: size = array([1920., 1080.])
+536.7203 	EXP 	image: image = './snippets/Final/Power(CNL).png'
+536.7203 	EXP 	image: autoDraw = True
+536.7203 	EXP 	text_2: autoDraw = True
+536.8635 	DATA 	Mouse:  Left button up, pos=(610,431)
+562.3781 	EXP 	New trial (rep=1, index=0): None
+562.4425 	DATA 	Keypress: space
+562.4513 	EXP 	image: autoDraw = False
+562.4513 	EXP 	text_2: autoDraw = False
+562.4513 	EXP 	image: size = array([1920., 1080.])
+562.4513 	EXP 	image: image = './snippets/Final/Powerresp(CNL).png'
+562.4513 	EXP 	image: autoDraw = True
+562.4513 	EXP 	text_2: autoDraw = True
+600.4621 	DATA 	Keypress: space
+600.4727 	EXP 	image: autoDraw = False
+600.4727 	EXP 	text_2: autoDraw = False
+600.4727 	EXP 	text_3: autoDraw = True
+601.6856 	DATA 	Mouse: Left button down, pos=(772,407)
+601.6922 	EXP 	New trial (rep=5, index=0): None
+601.6924 	EXP 	Created sequence: random, trialTypes=1, nReps=2, seed=None
+601.6926 	EXP 	New trial (rep=0, index=0): None
+601.7510 	EXP 	text_3: autoDraw = False
+601.7510 	EXP 	image: size = array([1920., 1080.])
+601.7510 	EXP 	image: image = './snippets/Final/BinaryConversion(WIC).png'
+601.7510 	EXP 	image: autoDraw = True
+601.7510 	EXP 	text_2: autoDraw = True
+601.8509 	DATA 	Mouse:  Left button up, pos=(772,407)
+628.3017 	EXP 	New trial (rep=1, index=0): None
+628.3533 	DATA 	Keypress: space
+628.3630 	EXP 	image: autoDraw = False
+628.3630 	EXP 	text_2: autoDraw = False
+628.3630 	EXP 	image: size = array([1920., 1080.])
+628.3630 	EXP 	image: image = './snippets/Final/BinaryConversionresp(WIC).png'
+628.3630 	EXP 	image: autoDraw = True
+628.3630 	EXP 	text_2: autoDraw = True
+676.9702 	DATA 	Keypress: space
+677.0428 	EXP 	image: autoDraw = False
+677.0428 	EXP 	text_2: autoDraw = False
+677.0428 	EXP 	text_3: autoDraw = True
+685.9156 	DATA 	Mouse: Left button down, pos=(703,642)
+685.9209 	EXP 	New trial (rep=6, index=0): None
+685.9212 	EXP 	Created sequence: random, trialTypes=1, nReps=2, seed=None
+685.9214 	EXP 	New trial (rep=0, index=0): None
+685.9771 	EXP 	text_3: autoDraw = False
+685.9771 	EXP 	image: size = array([1920., 1080.])
+685.9771 	EXP 	image: image = './snippets/Final/MultiplyMatrix(WOC).png'
+685.9771 	EXP 	image: autoDraw = True
+685.9771 	EXP 	text_2: autoDraw = True
+686.0243 	DATA 	Mouse:  Left button up, pos=(703,642)
+718.8378 	EXP 	New trial (rep=1, index=0): None
+718.8955 	DATA 	Keypress: space
+718.9035 	EXP 	image: autoDraw = False
+718.9035 	EXP 	text_2: autoDraw = False
+718.9035 	EXP 	image: size = array([1920., 1080.])
+718.9035 	EXP 	image: image = './snippets/Final/MultiplyMatrixresp(WOC).png'
+718.9035 	EXP 	image: autoDraw = True
+718.9035 	EXP 	text_2: autoDraw = True
+793.0235 	DATA 	Keypress: space
+793.0339 	EXP 	image: autoDraw = False
+793.0339 	EXP 	text_2: autoDraw = False
+793.0339 	EXP 	text_3: autoDraw = True
+802.3112 	DATA 	Mouse: Left button down, pos=(698,639)
+802.3172 	EXP 	New trial (rep=7, index=0): None
+802.3175 	EXP 	Created sequence: random, trialTypes=1, nReps=2, seed=None
+802.3177 	EXP 	New trial (rep=0, index=0): None
+802.3822 	EXP 	text_3: autoDraw = False
+802.3822 	EXP 	image: size = array([1920., 1080.])
+802.3822 	EXP 	image: image = './snippets/Final/PrimeNumber(CNL).png'
+802.3822 	EXP 	image: autoDraw = True
+802.3822 	EXP 	text_2: autoDraw = True
+802.4854 	DATA 	Mouse:  Left button up, pos=(698,639)
+842.7022 	EXP 	New trial (rep=1, index=0): None
+842.7571 	DATA 	Keypress: space
+842.7660 	EXP 	image: autoDraw = False
+842.7660 	EXP 	text_2: autoDraw = False
+842.7660 	EXP 	image: size = array([1920., 1080.])
+842.7660 	EXP 	image: image = './snippets/Final/PrimeNumberresp(CNL).png'
+842.7660 	EXP 	image: autoDraw = True
+842.7660 	EXP 	text_2: autoDraw = True
+862.5549 	DATA 	Keypress: space
+862.5649 	EXP 	image: autoDraw = False
+862.5649 	EXP 	text_2: autoDraw = False
+862.5649 	EXP 	text_3: autoDraw = True
+862.7256 	DATA 	Keypress: space
+865.4421 	DATA 	Mouse: Left button down, pos=(725,434)
+865.4480 	EXP 	New trial (rep=8, index=0): None
+865.4483 	EXP 	Created sequence: random, trialTypes=1, nReps=2, seed=None
+865.4484 	EXP 	New trial (rep=0, index=0): None
+865.4535 	EXP 	New trial (rep=9, index=0): None
+865.4538 	EXP 	Created sequence: random, trialTypes=1, nReps=2, seed=None
+865.4539 	EXP 	New trial (rep=0, index=0): None
+865.4587 	EXP 	New trial (rep=10, index=0): None
+865.4589 	EXP 	Created sequence: random, trialTypes=1, nReps=2, seed=None
+865.4590 	EXP 	New trial (rep=0, index=0): None
+865.4649 	EXP 	New trial (rep=11, index=0): None
+865.4651 	EXP 	Created sequence: random, trialTypes=1, nReps=2, seed=None
+865.4653 	EXP 	New trial (rep=0, index=0): None
+865.4707 	EXP 	New trial (rep=12, index=0): None
+865.4710 	EXP 	Created sequence: random, trialTypes=1, nReps=2, seed=None
+865.4711 	EXP 	New trial (rep=0, index=0): None
+865.4765 	EXP 	New trial (rep=13, index=0): None
+865.4767 	EXP 	Created sequence: random, trialTypes=1, nReps=2, seed=None
+865.4768 	EXP 	New trial (rep=0, index=0): None
+865.4815 	EXP 	New trial (rep=14, index=0): None
+865.4817 	EXP 	Created sequence: random, trialTypes=1, nReps=2, seed=None
+865.4819 	EXP 	New trial (rep=0, index=0): None
+865.4868 	EXP 	New trial (rep=15, index=0): None
+865.4870 	EXP 	Created sequence: random, trialTypes=1, nReps=2, seed=None
+865.4872 	EXP 	New trial (rep=0, index=0): None
+865.5608 	DATA 	Mouse:  Left button up, pos=(725,434)
+865.5643 	EXP 	text_3: autoDraw = False
+865.5643 	EXP 	text_3: autoDraw = True
+865.5643 	EXP 	text_3: autoDraw = False
+865.5643 	EXP 	text_3: autoDraw = True
+865.5643 	EXP 	text_3: autoDraw = False
+865.5643 	EXP 	text_3: autoDraw = True
+865.5643 	EXP 	text_3: autoDraw = False
+865.5643 	EXP 	text_3: autoDraw = True
+865.5643 	EXP 	text_3: autoDraw = False
+865.5643 	EXP 	text_3: autoDraw = True
+865.5643 	EXP 	text_3: autoDraw = False
+865.5643 	EXP 	text_3: autoDraw = True
+865.5643 	EXP 	text_3: autoDraw = False
+865.5643 	EXP 	text_3: autoDraw = True
+865.5643 	EXP 	text_3: autoDraw = False
+865.5643 	EXP 	text_3: autoDraw = True
+865.5643 	EXP 	text_3: autoDraw = False
+865.5643 	EXP 	text: autoDraw = True
+868.4961 	DATA 	Keypress: space
+868.4989 	EXP 	text: autoDraw = False
+868.5274 	EXP 	window1: mouseVisible = True

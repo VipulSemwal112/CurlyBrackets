@@ -1,0 +1,5 @@
+﻿Introduction.started,Introduction.stopped,EndTaskKey.keys,EndTaskKey.rt,EndTaskKey.started,EndTaskKey.stopped,instructions.started,instructions.stopped,KyeNext.keys,KyeNext.rt,KyeNext.started,KyeNext.stopped,introduction2.started,introduction2.stopped,SpaceBar.keys,SpaceBar.rt,SpaceBar.started,SpaceBar.stopped,text_start.started,text_start.stopped,srart_key.keys,srart_key.rt,srart_key.started,srart_key.stopped,participant,session,use_eyetracking,date,expName,psychopyVersion,frameRate,
+170.7318200999871,None,space,6.555365999985952,170.7318200999871,None,,,,,,,,,,,,,,,,,,,demo12,001,True,2022_May_11_1725,EyeTrackingStudy,2021.2.1,59.91841508908714,
+,,,,,,177.3057751999877,None,space,19.816814899997553,177.3057751999877,None,,,,,,,,,,,,,demo12,001,True,2022_May_11_1725,EyeTrackingStudy,2021.2.1,59.91841508908714,
+,,,,,,,,,,,,197.14652650000062,None,space,20.0444316000212,197.14652650000062,None,,,,,,,demo12,001,True,2022_May_11_1725,EyeTrackingStudy,2021.2.1,59.91841508908714,
+,,,,,,,,,,,,,,,,,,217.22278909999295,None,space,3.9275461999932304,217.22278909999295,None,demo12,001,True,2022_May_11_1725,EyeTrackingStudy,2021.2.1,59.91841508908714,
